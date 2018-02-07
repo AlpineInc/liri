@@ -10,11 +10,11 @@ Key features:
 1. Liri prompts the user to select one of the 4 commands.
 
 What can i do for you? (Use arrow keys)
- my-tweets
- get-song-details
- get-movie-details
- do-what-it-says
- exit 
+my-tweets
+get-song-details
+get-movie-details
+do-what-it-says
+exit
 
 2. Once you make a selection, Liri executes the action. Once completed, it prompts the user to select the next command. User can select exit to exit out of the application. Just for kicks, Liri makes use of javascript Promise and Async/Await features to implement the ability to continiously accept user commands in a loop. Since support for Promise was introduced in node.js v7.9, you will need node version 7.9 or above to run Liri.
 
