@@ -34,31 +34,32 @@ e.g.: movieDetails.Ratings.find(function (rating) { return rating.Source === "Ro
  
 Given below is an extract of Liri's stdout:
 
-What can i do for you? my-tweets
+$>node liri.js
+? What can i do for you? my-tweets
 
 
 --------------Tweets---------------
 1. go eagles!
 2. RT @coolcam101: Me getting ready for the Super Bowl.
 3. RT @coolcam101: Tom Brady wins Super Bowl 51
-4. RT @pepsi: Want to win some epic PepsiHalftime prizes? Follow @Pepsi and keep an eye out for chances to win all day! 
-___________________________________
+4. RT @pepsi: Want to win some epic #PepsiHalftime prizes? Follow @Pepsi and keep an eye out for chances to win all day! https://t.co/gdjKHN…
+-----------------------------------
 
 
-What can i do for you? get-song-details
-Enter the song/album name: The Sign
+? What can i do for you? get-song-details
+? Enter the song/album name: The Sign
 
 
 -----------Song Details------------
 Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
-Artist(s): Ty Dolla Sign, Mustard, Wiz Khalifa, The Weeknd
-Preview URL: 
+Artist(s): Ty Dolla $ign, Mustard, Wiz Khalifa, The Weeknd
+Preview URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=22723e1063094d8e91c685af32ae9a16
 Album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
-----------------------------------
+-----------------------------------
 
 
-What can i do for you? get-movie-details
-Enter the movie name: Mr. Nobody.
+? What can i do for you? get-movie-details
+? Enter the movie name: Mr. Nobody.
 
 
 -----------Movie Details-----------
@@ -73,7 +74,7 @@ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 -----------------------------------
 
 
-What can i do for you? do-what-it-says
+? What can i do for you? do-what-it-says
 
 
 -----------Movie Details-----------
@@ -88,11 +89,4 @@ Actors: Meryl Streep, Tom Hanks, Sarah Paulson, Bob Odenkirk
 -----------------------------------
 
 
-What can i do for you?
-  my-tweets
-  get-song-details
-  get-movie-details
-  do-what-it-says
-> exit
-
-
+? What can i do for you? exit
