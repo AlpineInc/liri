@@ -1,0 +1,27 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "A command line personal assistant",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlpineInc/liri.git"
+  },
+  "author": "Ravish Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlpineInc/liri/issues"
+  },
+  "homepage": "https://github.com/AlpineInc/liri#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "inquirer": "^5.1.0",
+    "log4js": "^2.5.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
