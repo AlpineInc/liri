@@ -27,27 +27,19 @@ e.g.: movieDetails.Ratings.find(function (rating) { return rating.Source === "Ro
  
 Given below is an extract of Liri's stdout:
 
-? What can i do for you? my-tweets
+What can i do for you? my-tweets
 
 
 --------------Tweets---------------
 1. go eagles!
 2. RT @coolcam101: Me getting ready for the Super Bowl.
-
- #SuperBowlSunday #SuperBowl https://t.co/NlBHlXpz1X
 3. RT @coolcam101: Tom Brady wins Super Bowl 51
-
-Super Bowl 51: Super Bowl 5 - 1
-
-Tom Brady can fit 5 rings on 1 hand
-
- #SuperBowlSunday #Su…
-4. RT @pepsi: Want to win some epic #PepsiHalftime prizes? Follow @Pepsi and keep an eye out for chances to win all day! 👀 https://t.co/gdjKHN…
+4. RT @pepsi: Want to win some epic PepsiHalftime prizes? Follow @Pepsi and keep an eye out for chances to win all day! 
 -----------------------------------
 
 
-? What can i do for you? get-song-details
-? Enter the song/album name: The Sign
+What can i do for you? get-song-details
+Enter the song/album name: The Sign
 
 
 -----------Song Details------------
@@ -58,8 +50,8 @@ Album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
 -----------------------------------
 
 
-? What can i do for you? get-movie-details
-? Enter the movie name: Mr. Nobody.
+What can i do for you? get-movie-details
+Enter the movie name: Mr. Nobody.
 
 
 -----------Movie Details-----------
@@ -74,7 +66,7 @@ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 -----------------------------------
 
 
-? What can i do for you? do-what-it-says
+What can i do for you? do-what-it-says
 
 
 -----------Movie Details-----------
@@ -89,7 +81,7 @@ Actors: Meryl Streep, Tom Hanks, Sarah Paulson, Bob Odenkirk
 -----------------------------------
 
 
-? What can i do for you?
+What can i do for you?
   my-tweets
   get-song-details
   get-movie-details
