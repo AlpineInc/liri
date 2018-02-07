@@ -10,7 +10,7 @@ Key features:
 1. Liri prompts the user to select one of the 4 commands.
 
 What can i do for you? (Use arrow keys)
-> my-tweets
+  my-tweets
   get-song-details
   get-movie-details
   do-what-it-says
