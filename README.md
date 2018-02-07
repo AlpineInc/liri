@@ -44,8 +44,8 @@ Enter the song/album name: The Sign
 
 -----------Song Details------------
 Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
-Artist(s): Ty Dolla $ign, Mustard, Wiz Khalifa, The Weeknd
-Preview URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=22723e1063094d8e91c685af32ae9a16
+Artist(s): Ty Dolla Sign, Mustard, Wiz Khalifa, The Weeknd
+Preview URL: 
 Album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
 -----------------------------------
 
