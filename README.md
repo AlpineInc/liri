@@ -12,7 +12,6 @@ Key features:
 What can i do for you? (Use arrow keys)
 
 my-tweets
-
 get-song-details
 
 get-movie-details
