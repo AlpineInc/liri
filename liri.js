@@ -155,7 +155,7 @@ function liri() {
                     console.log("Movie Title: " + movieDetails.Title);
                     console.log("Year: " + movieDetails.Year);
                     console.log("IMDB Rating: " + movieDetails.imdbRating);
-                    console.log("Rotten Tomatoes Rating: " + movieDetails.Ratings[1].Value);
+                    console.log("Rotten Tomatoes Rating: " + movieDetails.Ratings.find(function (rating) { return rating.Source === "Rotten Tomatoes"; }).Value);
                     console.log("Country produced in: " + movieDetails.Country);
                     console.log("Language: " + movieDetails.Language);
                     console.log("Plot: " + movieDetails.Plot);
@@ -214,7 +214,7 @@ function liri() {
                             console.log("Movie Title: " + movieDetails.Title);
                             console.log("Year: " + movieDetails.Year);
                             console.log("IMDB Rating: " + movieDetails.imdbRating);
-                            console.log("Rotten Tomatoes Rating: " + movieDetails.Ratings[1].Value);
+                            console.log("Rotten Tomatoes Rating: " + movieDetails.Ratings.find(function (rating) { return rating.Source === "Rotten Tomatoes"; }).Value);
                             console.log("Country produced in: " + movieDetails.Country);
                             console.log("Language: " + movieDetails.Language);
                             console.log("Plot: " + movieDetails.Plot);
